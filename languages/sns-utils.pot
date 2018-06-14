@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-29 04:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/admin.php:12
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/admin.php:13
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:2
+msgid "SNS Utilities Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/filters.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/shortcodes.php:13
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/template-tags.php:12
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/class/class-share-button.php:91
+msgid "Share"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:11
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:22
+msgid "Account Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:12
+msgid "Share Button Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:13
+msgid "OGP Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:14
+msgid "Facebook Settings"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:25
+msgid "Please enter Facebook account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:27
+msgid "Please enter Twitter account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:29
+msgid "Please enter Google+ Profile URL / ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:31
+msgid "Please enter Instagram account name or Profile URL"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:37
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:205
+msgid "Shortcode"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:89
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:240
+msgid "Template Tag"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:138
+msgid "Official Button"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:141
+msgid "Use Official Share Button"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:144
+msgid "Do not use in mobile device."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:152
+msgid "Services"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:153
+msgid "Specify the service to use."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:170
+msgid "Float display on"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:171
+msgid "Specify the page to be displayed."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:175
+msgid "Page"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:177
+msgid "Post"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:179
+msgid "Index"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:181
+msgid "Front Page"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:187
+msgid "Automatically add"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:190
+msgid "Automatically add to the_content"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:196
+msgid "Link Target"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:199
+msgid "Open a link in a new window"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:279
+msgid "Output OGP"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:282
+msgid "Output Ogp tags automatically."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:288
+msgid "ogp:description"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:289
+msgid "Set max length of description."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:292
+msgid "Please enter description text length"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:298
+msgid "ogp:image"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:299
+msgid "Default image in case there is no image in the post."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:307
+msgid "Select"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:308
+msgid "Clear"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:317
+msgid "twitter:card"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:332
+msgid "Application ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/parts/admin-snsutils.php:334
+msgid "Please enter Facebook Application ID"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/class/class-share-button.php:84
+msgid "Tweet"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/class/class-share-button.php:98
+msgid "LINE"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/sns-utils/inc/class/class-share-button.php:105
+msgid "Google+"
+msgstr ""
+
+#. Name of the plugin
+msgid "SNS Utilities"
+msgstr ""
+
+#. Description of the plugin
+msgid "SNS button, OGP setting"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/oyakata-s/sns-utils"
+msgstr ""
+
+#. Author of the plugin
+msgid "oyakata-s"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://something-25.com"
+msgstr ""

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+.snsutils-share-button {
+	padding: 0;
+	overflow: hidden;
+}
+
+.snsutils-share-button .share-title {
+	width: 100%;
+	margin: 1.0rem 0;
+}
+.snsutils-share-button .share-title:before {
+	display: inline-block;
+	margin-right: 0.5em;
+	vertical-align: middle;
+	font-family: "icomoon";
+	content: "\f1e1";
+}
+
+/*
+ * .static
+ */
+.snsutils-share-button.static {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.snsutils-share-button.static.custom .button {
+	flex: 1;
+}
+
+.snsutils-share-button.static .button p {
+	/*text-align: center;*/
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/*
+ * .float
+ */
+.snsutils-share-button.float {
+	position: fixed;
+	bottom: 5%;
+	right: 0;
+	z-index: 100;
+	border-radius: 10px 0 0 10px;
+	box-shadow: -10px 10px 30px -10px #000;
+	background-color: rgba(255,255,255,0.7);
+}
+@media screen and (max-width: 640px) {
+	.snsutils-share-button.float {
+		bottom: 0;
+		right: 0;
+		left: 0;
+		border-radius: 10px 10px 0 0;
+		box-shadow: 0 -10px 30px -10px #000;
+	}
+}
+
+/*
+ * .official
+ */
+.snsutils-share-button.official {
+	padding: 10px;
+}
+
+.snsutils-share-button.official .button {
+	margin: 10px 0;
+}
+.snsutils-share-button.official.static .button {
+	margin: 10px;
+}
+
+.snsutils-share-button.official .button iframe {
+	margin: 0;
+	vertical-align: bottom;
+}
+.snsutils-share-button.official .gplus.button > div {
+	vertical-align: bottom !important;
+}
+
+@media screen and (max-width: 640px) {
+	.snsutils-share-button.official {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.snsutils-share-button.official .button {
+		flex: 1;
+		margin: 5px 10px;
+	}
+	.snsutils-share-button.official .button p {
+		text-align: center;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+}
+
+/*
+ * .custom
+ */
+.snsutils-share-button.custom {
+	box-shadow: none;
+	background-color: transparent;
+}
+.snsutils-share-button.custom .button {
+	margin: 0;
+}
+.snsutils-share-button.custom .button.facebook {
+	background-color: #3b5998;
+}
+.snsutils-share-button.custom .button.twitter {
+	background-color: #55acee;
+}
+.snsutils-share-button.custom .button.line {
+	background-color: #00b800;
+}
+.snsutils-share-button.custom .button.gplus {
+	background-color: #dd4b39;
+}
+
+.snsutils-share-button.custom .button a {
+	display: block;
+	height: 3.0rem;
+	margin: 0;
+	padding: 0 1.0rem;
+	line-height: 3.0rem;
+	font-size: 1.0rem;
+	color: #fff;
+	text-decoration: none;
+}
+.snsutils-share-button.custom .button a:hover {
+	opacity: 0.8;
+}
+
+.snsutils-share-button.custom .button p {
+	margin: 0;
+	padding: 0;
+}
+
+.snsutils-share-button.custom .button img {
+	display: inline;
+	height: 1.0rem;
+	width: auto;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+
+.snsutils-share-button.custom .button .fa {
+	margin-right: 0.5em;
+}
+
+@media screen and (max-width: 640px) {
+	.snsutils-share-button.custom {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.snsutils-share-button.custom .button {
+		flex: 1;
+	}
+	.snsutils-share-button.custom .button p {
+		/*text-align: center;*/
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+}
+
+/*
+ * .social-link-url
+ */
+.social-link-url {
+	position: relative;
+	display: inline-block;
+	width: 1.3em;
+	height: 1.5em;
+	line-height: 1.5em;
+	box-shadow: none !important;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.social-link-url:before {
+	display: block;
+	font-family: "icomoon" !important;
+	font-size: 1.0em;
+}
+.social-link-url.twitter:before {
+	color: #55acee; /* twitter main color */
+	content: "\f081";
+}
+.social-link-url.facebook:before {
+	color: #3b5998; /* facebook main color */
+	content: "\f082";
+}
+.social-link-url.gplus:before {
+	color: #dd4b39; /* google+ main color */
+	content: "\f0d4";
+}
+.social-link-url.instagram:before {
+	color: #d93177;
+	content: "\f16d";
+}
+.social-link-url.feed {
+	line-height: 1.9em;
+}
+.social-link-url.feed:before {
+	color: #f60;
+	content: "\f143";
+}
+
+/*
+ * .social-link-list
+ */
+.social-link-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.social-link-list:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.social-link {
+	float: left;
+}
